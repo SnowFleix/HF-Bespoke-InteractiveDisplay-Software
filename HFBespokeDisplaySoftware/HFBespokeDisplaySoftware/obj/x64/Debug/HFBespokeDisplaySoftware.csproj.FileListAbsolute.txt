@@ -1,0 +1,9 @@
+G:\Visual Studio 2017\Projects\HFBespokeDisplaySoftware\HFBespokeDisplaySoftware\bin\x64\Debug\HFBespokeDisplaySoftware.exe.config
+G:\Visual Studio 2017\Projects\HFBespokeDisplaySoftware\HFBespokeDisplaySoftware\bin\x64\Debug\HFBespokeDisplaySoftware.exe
+G:\Visual Studio 2017\Projects\HFBespokeDisplaySoftware\HFBespokeDisplaySoftware\bin\x64\Debug\HFBespokeDisplaySoftware.pdb
+G:\Visual Studio 2017\Projects\HFBespokeDisplaySoftware\HFBespokeDisplaySoftware\obj\x64\Debug\HFBespokeDisplaySoftware.Form1.resources
+G:\Visual Studio 2017\Projects\HFBespokeDisplaySoftware\HFBespokeDisplaySoftware\obj\x64\Debug\HFBespokeDisplaySoftware.Properties.Resources.resources
+G:\Visual Studio 2017\Projects\HFBespokeDisplaySoftware\HFBespokeDisplaySoftware\obj\x64\Debug\HFBespokeDisplaySoftware.csproj.GenerateResource.cache
+G:\Visual Studio 2017\Projects\HFBespokeDisplaySoftware\HFBespokeDisplaySoftware\obj\x64\Debug\HFBespokeDisplaySoftware.csproj.CoreCompileInputs.cache
+G:\Visual Studio 2017\Projects\HFBespokeDisplaySoftware\HFBespokeDisplaySoftware\obj\x64\Debug\HFBespokeDisplaySoftware.exe
+G:\Visual Studio 2017\Projects\HFBespokeDisplaySoftware\HFBespokeDisplaySoftware\obj\x64\Debug\HFBespokeDisplaySoftware.pdb

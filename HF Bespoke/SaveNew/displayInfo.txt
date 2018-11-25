@@ -1,0 +1,99 @@
+<ArrayOfDisplayPageSerialise>
+  <DisplayPageSerialise>
+    <name>bottomWarehouse.png</name>
+    <buttonList />
+    <circleBtnLst />
+  </DisplayPageSerialise>
+  <DisplayPageSerialise>
+    <name>deliveryRoom.png</name>
+    <buttonList />
+    <circleBtnLst />
+  </DisplayPageSerialise>
+  <DisplayPageSerialise>
+    <name>denbyTrailers.png</name>
+    <buttonList />
+    <circleBtnLst />
+  </DisplayPageSerialise>
+  <DisplayPageSerialise>
+    <name>electrics.png</name>
+    <buttonList />
+    <circleBtnLst />
+  </DisplayPageSerialise>
+  <DisplayPageSerialise>
+    <name>help.png</name>
+    <buttonList />
+    <circleBtnLst />
+  </DisplayPageSerialise>
+  <DisplayPageSerialise>
+    <name>joiners.png</name>
+    <buttonList />
+    <circleBtnLst />
+  </DisplayPageSerialise>
+  <DisplayPageSerialise>
+    <name>leanTo.png</name>
+    <buttonList />
+    <circleBtnLst />
+  </DisplayPageSerialise>
+  <DisplayPageSerialise>
+    <name>Main Page.png</name>
+    <buttonList />
+    <circleBtnLst>
+      <CircleButtonSerialise>
+        <pageLink>map.png</pageLink>
+        <radius>152</radius>
+        <centre>
+          <X>75</X>
+          <Y>727</Y>
+        </centre>
+      </CircleButtonSerialise>
+      <CircleButtonSerialise>
+        <pageLink>help.png</pageLink>
+        <radius>152</radius>
+        <centre>
+          <X>333</X>
+          <Y>644</Y>
+        </centre>
+      </CircleButtonSerialise>
+    </circleBtnLst>
+  </DisplayPageSerialise>
+  <DisplayPageSerialise>
+    <name>map.png</name>
+    <buttonList />
+    <circleBtnLst />
+  </DisplayPageSerialise>
+  <DisplayPageSerialise>
+    <name>newWarehouse.png</name>
+    <buttonList />
+    <circleBtnLst />
+  </DisplayPageSerialise>
+  <DisplayPageSerialise>
+    <name>ops.png</name>
+    <buttonList />
+    <circleBtnLst />
+  </DisplayPageSerialise>
+  <DisplayPageSerialise>
+    <name>painters.png</name>
+    <buttonList />
+    <circleBtnLst />
+  </DisplayPageSerialise>
+  <DisplayPageSerialise>
+    <name>printShop.png</name>
+    <buttonList />
+    <circleBtnLst />
+  </DisplayPageSerialise>
+  <DisplayPageSerialise>
+    <name>tfsStore.png</name>
+    <buttonList />
+    <circleBtnLst />
+  </DisplayPageSerialise>
+  <DisplayPageSerialise>
+    <name>topWarehouse.png</name>
+    <buttonList />
+    <circleBtnLst />
+  </DisplayPageSerialise>
+  <DisplayPageSerialise>
+    <name>trailerPark.png</name>
+    <buttonList />
+    <circleBtnLst />
+  </DisplayPageSerialise>
+</ArrayOfDisplayPageSerialise>

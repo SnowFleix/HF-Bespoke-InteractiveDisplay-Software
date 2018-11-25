@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="HFBespoke.exe" version="1.0.0.0" publicKeyToken="ec3e3f7a5c287778" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="9uh16cih_400x400_yE5_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="HFBespoke" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="HFBespoke.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HFBespoke.exe" size="264664">
+      <assemblyIdentity name="HFBespoke" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>cnPZslrFF0CFeAMSCr098Pd7zIJUIP/LprU0wKOG5Rk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="9uh16cih_400x400_yE5_icon.ico" size="72980">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eVtAEoeBFtGSLbjtp0jDlr1sxSI19CBSALmDBm+Yw98=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HFBespoke.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=WINDOWS-LK41KHD\User" issuerKeyHash="50da87951a812b62bcab5bb7d180676c88d24ef0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Z0k1UIkNHCtPaHvLfM/evy02mgIM5WzVcyZI/k8SC04=</DigestValue></Reference></SignedInfo><SignatureValue>TLyv6Ff/F+e1gV9Ri+TvPQkZ8LdvMVagQOdJ/EOutxEAz8q5YFMCcHNKcDbpT6eZeg3isiSYH8EDeEM0h7a02U5Xkl0nR/j2+R64ASupIQ52t+q6vAIoDbWJbF5kpYlG+PYdxICggbYc/UWah2Lpc6s/KH7zMLappZCgakSX7bM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>68OLMb98SkFRmAIWEInOJh9/mx8DBzGVEPo8RYBKHS7gxc5sD5BMgVODt1FdxfwJp3R3VOumANuQTQv+fEDjU3JAyUduLAlVLL8oLPbFdbWkKm/b4Ts46jjK0ah4DqNbG3zjErOf2kSr74RTGOsEST6TCdkiKO63DG7hTGYaSUU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4e0b124ffe482673d56ce50c029a362dbfdecf7ccb7b684f2b1c0d8950354967" Description="" Url=""><as:assemblyIdentity name="HFBespoke.exe" version="1.0.0.0" publicKeyToken="ec3e3f7a5c287778" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=WINDOWS-LK41KHD\User</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>PmkYyusFw1m0jDLGKVA0i7+9U5z/awSk44mhRWr1GjE=</DigestValue></Reference></SignedInfo><SignatureValue>mifjhdF54XOiMoV2Tq45I8GIunYpeBnz/gF8hU/VMfBo4ci9bvWB694NOhXvvmQ7bnpRGAFJo2kmNX2wkZR/Daa4S1CUwmdfodshU9g/FpG63faEWf+LwWaNUHXlhwKMqdDCDgHaouQBtTDR1E8TqlDgAGCov3PwLNGEBL757ZA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>68OLMb98SkFRmAIWEInOJh9/mx8DBzGVEPo8RYBKHS7gxc5sD5BMgVODt1FdxfwJp3R3VOumANuQTQv+fEDjU3JAyUduLAlVLL8oLPbFdbWkKm/b4Ts46jjK0ah4DqNbG3zjErOf2kSr74RTGOsEST6TCdkiKO63DG7hTGYaSUU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQEzlkQUz1N65Bpl3uU1SdvzANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigAVwBJAE4ARABPAFcAUwAtAEwASwA0ADEASwBIAEQAXABVAHMAZQByMB4XDTE4MTExMzIwNTAyMFoXDTE5MTExNDAyNTAyMFowMzExMC8GA1UEAx4oAFcASQBOAEQATwBXAFMALQBMAEsANAAxAEsASABEAFwAVQBzAGUAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA68OLMb98SkFRmAIWEInOJh9/mx8DBzGVEPo8RYBKHS7gxc5sD5BMgVODt1FdxfwJp3R3VOumANuQTQv+fEDjU3JAyUduLAlVLL8oLPbFdbWkKm/b4Ts46jjK0ah4DqNbG3zjErOf2kSr74RTGOsEST6TCdkiKO63DG7hTGYaSUUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAEojfJUhL+mrxKql25eDo3yLsvIr5DfhF3Kxb/d4LY9p3bxD/TYI6702Xbf/L9sSrVZ8snx/d68533JXietAsga/nuJpHb0YMe9SN2vCS541YSX3qaCToI61EedawAAfF/26OMZrlDSUEqzi6y1MZkvw9tAI0U0aJhVC/or9gDVA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
