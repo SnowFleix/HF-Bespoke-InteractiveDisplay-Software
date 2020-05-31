@@ -8,7 +8,7 @@ It is important to remember this is just a prototype but I would greatly appreci
 
 ### Prerequisites
 
-Some knowledge of C# and .NET Framwork.
+Some knowledge of C# and .NET Framework.
 
 ### Installing
 
