@@ -109,6 +109,9 @@ namespace HFBespoke
             CreateNewProject();
         }
 
+        /// <summary>
+        /// completely clears all the pages open and creates a new project
+        /// </summary>
         private void CreateNewProject()
         {
             if (pageLst.Count > 0)
@@ -133,6 +136,10 @@ namespace HFBespoke
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         private Size GetProjectSize()
         {
             try
@@ -269,6 +276,9 @@ namespace HFBespoke
             lastSave = DateTime.Now;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         private void Save()
         {
             List<DisplayPageSerialise> displayLstS = new List<DisplayPageSerialise>();
@@ -330,6 +340,12 @@ namespace HFBespoke
             return imgPath;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="tabName"></param>
+        /// <param name="imgPath"></param>
+        /// <param name="fromFile"></param>
         private void CreateNewTab(string tabName, string imgPath, bool fromFile)
         {
             GroupBox tabGroupBox = new GroupBox();
@@ -645,7 +661,7 @@ namespace HFBespoke
             foreach (DisplayPage d in pageLst)
                 if (d.displayPageName == (string)thisTimer.Tag)
                 {
-                    img = d.GetBackgroundImage();
+                    img = ResizeImage(d.GetBackgroundImage(), projectDisplaySize.Width, projectDisplaySize.Height); // otherwise if the background image was more than this then it wouldn't be able to properly place the buttons
                     break;
                 }
             Bitmap bmp = new Bitmap(img);
@@ -698,6 +714,7 @@ namespace HFBespoke
                                 double yCoordinate = Cursor.Position.Y;
                                 Point cP = new Point((int)((xCoordinate - screenPosition.X) / (percentageOfZoom / 100)), (int)((yCoordinate - screenPosition.Y) / (percentageOfZoom / 100)));
                                 g.DrawEllipse(pen, (int)(cP.X - (r / 2)), (int)(cP.Y - (r / 2)), r, r);
+
                             }
                         }
                 }
@@ -714,7 +731,7 @@ namespace HFBespoke
 
         private void bntSquare_Click(object sender, EventArgs e)
         {
-            if (projectDisplaySize != new Size(0, 0))
+            if (projectDisplaySize != new Size(0, 0) && pageLst.Count > 0)
             {
                 isCreatingButton = true;
                 btnFinish.Visible = true;
@@ -729,7 +746,7 @@ namespace HFBespoke
 
         private void btnCircle_Click(object sender, EventArgs e)
         {
-            if (projectDisplaySize != new Size(0, 0))
+            if (projectDisplaySize != new Size(0, 0) && pageLst.Count > 0)
             {
                 try
                 {
@@ -753,7 +770,7 @@ namespace HFBespoke
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            if (projectDisplaySize != new Size(0, 0))
+            if (projectDisplaySize != new Size(0, 0) && pageLst.Count > 0)
             {
                 Point p1 = new Point(0, 0);
                 Point p2 = new Point(0, 50);
@@ -1053,6 +1070,38 @@ namespace HFBespoke
         private void btnRect_Click(object sender, EventArgs e)
         {
             
+        }
+
+        /// <summary>
+        /// Resize the image to the specified width and height.
+        /// </summary>
+        /// <param name="image">The image to resize.</param>
+        /// <param name="width">The width to resize to.</param>
+        /// <param name="height">The height to resize to.</param>
+        /// <returns>The resized image.</returns>
+        public static Bitmap ResizeImage(Image image, int width, int height)
+        {
+            var destRect = new Rectangle(0, 0, width, height);
+            var destImage = new Bitmap(width, height);
+
+            destImage.SetResolution(image.HorizontalResolution, image.VerticalResolution);
+
+            using (var graphics = Graphics.FromImage(destImage))
+            {
+                graphics.CompositingMode = CompositingMode.SourceCopy;
+                graphics.CompositingQuality = CompositingQuality.HighQuality;
+                graphics.InterpolationMode = InterpolationMode.HighQualityBicubic;
+                graphics.SmoothingMode = SmoothingMode.HighQuality;
+                graphics.PixelOffsetMode = PixelOffsetMode.HighQuality;
+
+                using (var wrapMode = new ImageAttributes())
+                {
+                    wrapMode.SetWrapMode(WrapMode.TileFlipXY);
+                    graphics.DrawImage(image, destRect, 0, 0, image.Width, image.Height, GraphicsUnit.Pixel, wrapMode);
+                }
+            }
+
+            return destImage;
         }
     }
 }

@@ -1,36 +1,8 @@
-g:\Visual Studio 2017\Projects\HFBespoke\HFBespoke\bin\Debug\HFBespoke.exe.config
-g:\Visual Studio 2017\Projects\HFBespoke\HFBespoke\bin\Debug\HFBespoke.exe
-g:\Visual Studio 2017\Projects\HFBespoke\HFBespoke\bin\Debug\HFBespoke.pdb
-g:\Visual Studio 2017\Projects\HFBespoke\HFBespoke\obj\Debug\HFBespoke.csprojAssemblyReference.cache
-g:\Visual Studio 2017\Projects\HFBespoke\HFBespoke\obj\Debug\HFBespoke.Form1.resources
-g:\Visual Studio 2017\Projects\HFBespoke\HFBespoke\obj\Debug\HFBespoke.Properties.Resources.resources
-g:\Visual Studio 2017\Projects\HFBespoke\HFBespoke\obj\Debug\HFBespoke.csproj.GenerateResource.cache
-g:\Visual Studio 2017\Projects\HFBespoke\HFBespoke\obj\Debug\HFBespoke.csproj.CoreCompileInputs.cache
-g:\Visual Studio 2017\Projects\HFBespoke\HFBespoke\obj\Debug\HFBespoke.exe
-g:\Visual Studio 2017\Projects\HFBespoke\HFBespoke\obj\Debug\HFBespoke.pdb
-C:\Users\User\Desktop\HF Bespoke\HFBespoke\HFBespoke\bin\Debug\HFBespoke.exe.config
-C:\Users\User\Desktop\HF Bespoke\HFBespoke\HFBespoke\bin\Debug\HFBespoke.exe
-C:\Users\User\Desktop\HF Bespoke\HFBespoke\HFBespoke\bin\Debug\HFBespoke.pdb
-C:\Users\User\Desktop\HF Bespoke\HFBespoke\HFBespoke\obj\Debug\HFBespoke.csprojAssemblyReference.cache
-C:\Users\User\Desktop\HF Bespoke\HFBespoke\HFBespoke\obj\Debug\HFBespoke.Form1.resources
-C:\Users\User\Desktop\HF Bespoke\HFBespoke\HFBespoke\obj\Debug\HFBespoke.Properties.Resources.resources
-C:\Users\User\Desktop\HF Bespoke\HFBespoke\HFBespoke\obj\Debug\HFBespoke.csproj.GenerateResource.cache
-C:\Users\User\Desktop\HF Bespoke\HFBespoke\HFBespoke\obj\Debug\HFBespoke.csproj.CoreCompileInputs.cache
-C:\Users\User\Desktop\HF Bespoke\HFBespoke\HFBespoke\obj\Debug\HFBespoke.exe
-C:\Users\User\Desktop\HF Bespoke\HFBespoke\HFBespoke\obj\Debug\HFBespoke.pdb
-C:\Users\User\Desktop\HF Bespoke\HFBespoke\HFBespoke\obj\Debug\HFBespoke.SelectLinkPage.resources
-\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\8\b6041038\Download\HF Bespoke\HFBespoke\HFBespoke\bin\Debug\HFBespoke.exe.config
-\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\8\b6041038\Download\HF Bespoke\HFBespoke\HFBespoke\bin\Debug\HFBespoke.exe
-\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\8\b6041038\Download\HF Bespoke\HFBespoke\HFBespoke\bin\Debug\HFBespoke.pdb
-\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\8\b6041038\Download\HF Bespoke\HFBespoke\HFBespoke\obj\Debug\HFBespoke.csprojResolveAssemblyReference.cache
-\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\8\b6041038\Download\HF Bespoke\HFBespoke\HFBespoke\obj\Debug\HFBespoke.Form1.resources
-\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\8\b6041038\Download\HF Bespoke\HFBespoke\HFBespoke\obj\Debug\HFBespoke.Properties.Resources.resources
-\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\8\b6041038\Download\HF Bespoke\HFBespoke\HFBespoke\obj\Debug\HFBespoke.SelectLinkPage.resources
-\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\8\b6041038\Download\HF Bespoke\HFBespoke\HFBespoke\obj\Debug\HFBespoke.csproj.GenerateResource.Cache
-\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\8\b6041038\Download\HF Bespoke\HFBespoke\HFBespoke\obj\Debug\HFBespoke.csproj.CoreCompileInputs.cache
-\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\8\b6041038\Download\HF Bespoke\HFBespoke\HFBespoke\obj\Debug\HFBespoke.exe
-\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\8\b6041038\Download\HF Bespoke\HFBespoke\HFBespoke\obj\Debug\HFBespoke.pdb
-C:\Users\User\Desktop\HF Bespoke\HFBespoke\HFBespoke\bin\Debug\HFBespoke.exe.manifest
-C:\Users\User\Desktop\HF Bespoke\HFBespoke\HFBespoke\bin\Debug\HFBespoke.application
-C:\Users\User\Desktop\HF Bespoke\HFBespoke\HFBespoke\obj\Debug\HFBespoke.exe.manifest
-C:\Users\User\Desktop\HF Bespoke\HFBespoke\HFBespoke\obj\Debug\HFBespoke.application
+K:\OLD Stuff\HF-Bespoke-InteractiveDisplay-Software\HF Bespoke\HFBespoke\HFBespoke\obj\Debug\HFBespoke.Form1.resources
+K:\OLD Stuff\HF-Bespoke-InteractiveDisplay-Software\HF Bespoke\HFBespoke\HFBespoke\obj\Debug\HFBespoke.Properties.Resources.resources
+K:\OLD Stuff\HF-Bespoke-InteractiveDisplay-Software\HF Bespoke\HFBespoke\HFBespoke\obj\Debug\HFBespoke.SelectLinkPage.resources
+K:\OLD Stuff\HF-Bespoke-InteractiveDisplay-Software\HF Bespoke\HFBespoke\HFBespoke\obj\Debug\HFBespoke.csproj.GenerateResource.cache
+K:\OLD Stuff\HF-Bespoke-InteractiveDisplay-Software\HF Bespoke\HFBespoke\HFBespoke\obj\Debug\HFBespoke.csproj.CoreCompileInputs.cache
+K:\OLD Stuff\HF-Bespoke-InteractiveDisplay-Software\HF Bespoke\HFBespoke\HFBespoke\obj\Debug\HFBespoke.exe
+K:\OLD Stuff\HF-Bespoke-InteractiveDisplay-Software\HF Bespoke\HFBespoke\HFBespoke\obj\Debug\HFBespoke.pdb
+K:\OLD Stuff\HF-Bespoke-InteractiveDisplay-Software\HF Bespoke\HFBespoke\HFBespoke\obj\Debug\HFBespoke.csprojAssemblyReference.cache
